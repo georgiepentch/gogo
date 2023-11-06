@@ -1,0 +1,40 @@
+body {
+    background-color: #151118;
+}
+
+* {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+}
+
+header {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.header-button {
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    padding: 0px 17px;
+}
+
+#header-list {
+    margin: auto;
+    width: 400px;
+    padding: 0;
+    display: inline-block;
+}
+
+.header-rule {
+    width: calc(50% - 240px);
+    display: inline-block;
+}
