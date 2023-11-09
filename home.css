@@ -38,3 +38,15 @@ header {
     width: calc(50% - 240px);
     display: inline-block;
 }
+
+a {
+    text-decoration: none;
+}
+
+.header-button > a:hover {
+    color: #d9d0d8;
+}
+
+.selected {
+    color: #d9d0d8;
+}
