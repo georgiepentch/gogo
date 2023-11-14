@@ -1,3 +1,5 @@
+/* #region Boilerplate */
+
 :root {
     --col1: #cefff7;
     --col2: #ffd6c7;
@@ -52,9 +54,9 @@ a {
     color: var(--active);
 }
 
-/* BOILERPLATE ENDS HERE */
+/* #endregion */
 
-/* --- HOME --- */
+/* #region Home */
 
 #title {
     text-align: center;
@@ -62,18 +64,20 @@ a {
     font-size: 120px;
 }
 
-/*  --- BLOG --- */
+/* #endregion */
 
-.blog-post {
+/* #region Blog */
+
+.blog-main {
     width: 1000px;
     margin: auto;
 }
 
 @media (max-width: 1100px) {
-    .blog-post {width: calc(1000% / 11)}
+    .blog-main {width: calc(1000% / 11)}
 }
 
-.blog-title {
+.blog-main > h1 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
@@ -81,7 +85,7 @@ a {
     margin: 10px 0px 5px 0px;
 }
 
-.blog-date {
+.blog-main > .blog-date {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -90,7 +94,7 @@ a {
     margin-bottom: 30px;
 }
 
-.blog-par {
+.blog-main > p {
     font-family: 'Libre Baskerville', serif;
     font-size: 16px;
     line-height: 1.5;
@@ -98,8 +102,14 @@ a {
     overflow-wrap: anywhere;
 }
 
-.blog-heading {
+.blog-main > h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
     font-weight: 700;
 }
+
+
+
+
+
+/* #endregion */
